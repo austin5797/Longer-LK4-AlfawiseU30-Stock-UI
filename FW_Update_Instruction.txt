@@ -1,0 +1,31 @@
+
+/***************************************************************************************/
+/*                             Firmware Update Instruction                             */  
+/***************************************************************************************/
+
+Preparation: a 3d-printer, a micro SD card(format recommended), a micro SD card reader, a computer. 
+
+Step 1: Unzip the compressed firmware package.
+
+Step 2: Correctly insert micro SD card in card reader, then plug the card reader into usb port of computer.
+
+Step 3: Copy the "project.bin" and "Longer3D.UI" two files to the root directory of your micro SD card.
+
+Step 4: Insert prepared micro SD card into printer, then reboot your printer, and update will starts automatically.
+
+	Normally, the screen of printer shows two progress bar(first one for images of user-interface, the second one for main program).
+ 
+	Update progress usually lasts about 30 seconds with fast blink of blue LED light.
+
+	In common, the screen would jumps to the home menu after finishing update.
+
+	If not, please check your steps, and repeat again. If it still fails, format or change your micro SD card and try again.
+
+	*Notice:  Do not power off the printer during the update!
+
+Step 5: Congratulations! Now, you can freely operate your printer with new firmware;
+
+	But, don't forget to delete the two files of "step 3" in your micro SD card, otherwise update will unnecessarily repeats when printer boots.
+
+
+/* revison time: 2018/09/21 */
